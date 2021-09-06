@@ -30,6 +30,6 @@ class HelloWorldControllerTest {
     @DisplayName("Should returns response of /hello")
     void testHelloResponse() {
         String result = client.toBlocking().retrieve("/hello");
-        assertEquals("Hello From Micronaut ;)", result);
+        assertEquals("Hi, this is from service", result);
     }
 }

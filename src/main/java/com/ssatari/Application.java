@@ -1,5 +1,7 @@
 package com.ssatari;
 
+import com.ssatari.service.HelloWorldService;
+import io.micronaut.context.ApplicationContext;
 import io.micronaut.runtime.Micronaut;
 
 public class Application {
