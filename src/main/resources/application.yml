@@ -8,3 +8,8 @@ hello:
     path: "/hello"
   service:
     greeting: "Hello from service"
+  config:
+    greeting:
+      en: "Hi babe!"
+      per: "سلام گوگولی!"
+      de: "Hallo!"
